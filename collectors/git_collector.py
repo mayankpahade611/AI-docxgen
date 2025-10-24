@@ -33,7 +33,7 @@ def collect_git_history(repo_path):
 
 
     for commit in repo.iter_commits():
-        for file_path in commit.stats.fiels.keys():
+        for file_path in commit.stats.files.keys():
             commits_data.append({
                 "file": os.path.relpath(file_path, repo_path),
                 "commit_hash": commit.hexsha,
