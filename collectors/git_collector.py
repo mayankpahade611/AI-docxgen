@@ -4,7 +4,7 @@ import os
 def extract_git_data(repo_path: str):
 
     git_data = []
-    if not os.paht.exists(os.path.join(repo_path, ".git")):
+    if not os.path.exists(os.path.join(repo_path, ".git")):
         print("⚠️ No .git directory found. Skipping git analysis.")
         return git_data
     

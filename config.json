@@ -1,0 +1,31 @@
+{
+  "project_name": "AI Enhanced Documentation",
+  "repo_path": "C:/Projects/AI-Enhanced-Documentation",
+  "output_path": "output/docs",
+  "data_path": "output/data/code_entities.json",
+
+  "modules": {
+    "collectors": true,
+    "indexer": true,
+    "generator": true
+  },
+
+  "documentation": {
+    "language": "en",
+    "format": "markdown",
+    "include_commits": true,
+    "include_classes": true,
+    "include_functions": true
+  },
+
+  "ai_settings": {
+    "model": "gpt-4o-mini",
+    "temperature": 0.3,
+    "max_tokens": 1500
+  },
+
+  "logging": {
+    "enabled": true,
+    "log_file": "output/logs/generation_log.txt"
+  }
+}

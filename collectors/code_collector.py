@@ -26,4 +26,6 @@ def extract_code_entities(base_path: str):
                 except Exception as e:
                     print(f"Error reading {file_path}: {e}")
 
-        return collected_data
+    return collected_data
+
+
