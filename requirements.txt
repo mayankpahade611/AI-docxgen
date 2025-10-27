@@ -1,4 +1,6 @@
 GitPython
 ipykernel
-transormers
+transformers
 openai
+torch
+tqdm
