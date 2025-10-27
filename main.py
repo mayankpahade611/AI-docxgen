@@ -4,7 +4,7 @@ from generator.doc_generator import generate_docs
 
 
 def main():
-    repo_path = "C:/flask"  # 👈 change to your repo path
+    repo_path = "C:/Backyard-Farming-2.0"  # 👈 change to your repo path
 
     print("Collecting code information...")
     code_data = extract_code_entities(repo_path)
